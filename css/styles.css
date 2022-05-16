@@ -1,0 +1,46 @@
+body {
+  background-color: lightcyan;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1, h2 {
+  color: black;
+}
+
+h1:hover, h2:hover {
+  color: deepskyblue;
+}
+
+th {
+  font-size: 150%;
+}
+
+hr {
+  width: 5%;
+  border: 2px dotted;
+  border-color: grey;
+}
+
+input[type=text], select, textarea {
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  font-size: 120%;
+}
